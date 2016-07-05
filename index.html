@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Daniel Dugan </title>
+    <link rel="stylesheet" href="/javascripts/reportcard/css/badges.css">
   </head>
 
   <body>
@@ -47,6 +48,7 @@
 		<a href="#"><img src="images/portfolio3.png" alt="Conference presentations" /></a>
 		<p class="btn"><a href="#">New Eagle: Maker Faire</a></p>
 	</div>
+	<div class="report-card treehouse"></div>
 <div style = "overflow:hidden; width: 100%;">	
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Past Experiences</h3>
@@ -105,4 +107,12 @@ Associates of Science in Math and Science and Associates of Science in Occupatio
     
 
   </body>
+  <script src="/javascripts/reportcard/js/reportcard.js"></script>
+  <script>
+$('.report-card.treehouse').reportCard({
+    userName: 'danieldugan',
+    site: 'treehouse',
+    badgesAmount: 7
+});
+</script>
 </html>
